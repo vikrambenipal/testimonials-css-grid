@@ -1,5 +1,27 @@
+@font-face{
+    font-family: 'barlow-semibold';
+    src: url(Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf);
+}
+@font-face{
+    font-family: 'barlow-medium';
+    src: url(Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+}
+body{
+    background-color: #ECF2F8;
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 80px auto;
+}
 .box{
     border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72,85,106, 0.2474);
+    margin-bottom: 25px;
 }
 .bio{
     display: flex;
