@@ -9,6 +9,23 @@
 body{
     background-color: #ECF2F8;
 }
+h2{
+    font-size: 24px;
+    font-family: 'barlow-semibold';
+}
+h3{
+    font-family: 'barlow-medium';
+    font-size: 18px;
+}
+.bio-name p {
+    font-family: 'barlow-medium';
+    font-size: 14px;
+    margin-top: -15px;
+}
+p{
+
+}
+
 .app-container{
     display: flex;
     flex-direction: column;
@@ -18,10 +35,26 @@ body{
     margin: 80px auto;
 }
 .box{
+    padding: 0 30px;
     border: 2px solid black;
     border-radius: 8px;
     box-shadow: 40px 60px 50px -47px rgba(72,85,106, 0.2474);
     margin-bottom: 25px;
+}
+#box-1{
+    background-color: #A775F1;
+}
+#box-2{
+    background-color: #48556A;
+}
+#box-3{
+    background-color: white;
+}
+#box-4{
+    background-color: #19202D;
+}
+#box-5{
+    background-color: white;
 }
 .bio{
     display: flex;
@@ -29,6 +62,12 @@ body{
     justify-content: left;
     align-items: center;
 }
+.bio-name{
+    margin-left: 25px;
+}
 img{
     border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    padding-top: 5px;
 }
