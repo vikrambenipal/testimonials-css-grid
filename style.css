@@ -41,6 +41,10 @@ h3{
 
 #box-1{
     background-color: #733FC8;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 125px;
+    background-position: 80% top;
 }
 #box-2{
     background-color: #48556A;
@@ -96,14 +100,16 @@ img{
 
 @media all and (min-width: 1200px){
     .box{
-        margin: 0;
+        margin-bottom: 0px;
     }
     .app-container{
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 20px;
+        margin: 5%;
     }
-    
+
     #box-1{
         grid-column: 1/3;
         grid-row: 1/1;
@@ -122,7 +128,7 @@ img{
     }
     #box-5{
         grid-column: 4/4;
-        grid-row: 1/3;
+        grid-row: 1/-1;
     }
 
 }
